@@ -1,0 +1,23 @@
+{
+  "name": "ankit-open-source-project",
+  "version": "1.0.0",
+  "description": "Open-source digital tools and automation systems for freelancers, agencies, and small businesses.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "open-source",
+    "automation",
+    "saas",
+    "crm",
+    "digital-tools",
+    "javascript"
+  ],
+  "author": "Ankit Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

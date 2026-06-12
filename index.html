@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankit Open Source Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">Ankit OS</div>
+      <a href="https://github.com/Ankit956973/ankit" target="_blank" class="nav-link">GitHub Repo</a>
+    </nav>
+
+    <section class="hero-content">
+      <p class="badge">Open Source • Automation • SaaS Tools</p>
+      <h1>Useful digital tools for freelancers, agencies, and small businesses.</h1>
+      <p class="hero-text">
+        This project helps users organize leads, follow-ups, payments, and client work using simple web-based tools.
+      </p>
+      <div class="hero-actions">
+        <a href="#features" class="btn primary">View Features</a>
+        <a href="#demo" class="btn secondary">Try Demo</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="features" class="section">
+      <h2>Project Features</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Lead Tracking</h3>
+          <p>Track incoming leads and their current sales stage.</p>
+        </article>
+        <article class="card">
+          <h3>Follow-Up System</h3>
+          <p>Never miss a client follow-up or proposal reminder.</p>
+        </article>
+        <article class="card">
+          <h3>Payment Overview</h3>
+          <p>Keep payment status organized for each client.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="demo" class="section demo-section">
+      <h2>Mini Lead Tracker Demo</h2>
+      <p>Add a sample lead below. This demo runs in the browser using JavaScript.</p>
+
+      <form id="leadForm" class="lead-form">
+        <input type="text" id="leadName" placeholder="Client name" required />
+        <input type="text" id="leadService" placeholder="Service required" required />
+        <button type="submit">Add Lead</button>
+      </form>
+
+      <ul id="leadList" class="lead-list"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Created by Ankit Kumar • Open Source Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
